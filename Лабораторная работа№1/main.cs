@@ -153,6 +153,7 @@ public class Program
                 case "14":
                 {
                     Console.WriteLine("Задача 14 'Квадрат': ");
+                    Console.WriteLine("Введите целочисленное число: ");
                     int ex14;
                     ex14 = int.Parse(Console.ReadLine());
                     pr.square(ex14);
