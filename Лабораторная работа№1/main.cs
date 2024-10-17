@@ -7,7 +7,7 @@ public class Program
         bool flag = true;
         Program pr = new Program();
         while (flag) {
-            Console.WriteLine("Введите номер задачи: ");
+            Console.WriteLine("Введите номер задачи (1-20): ");
             string x;
             x = Console.ReadLine();
             switch(x)
