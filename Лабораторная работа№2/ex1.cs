@@ -58,7 +58,7 @@ class Program
     {
         //ТЕСТЫ ДЛЯ ПРОВЕРКИ ЗАДАНИЯ
         //класс
-        Console.WriteLine("Введи три числа для коробки чисел:");
+        Console.WriteLine("Введите три числа для коробки чисел:");
         Console.WriteLine("Первое число:");
         int num1 = int.Parse(Console.ReadLine());
         Console.WriteLine("Второе число:");
@@ -66,13 +66,13 @@ class Program
         Console.WriteLine("Третье число:");
         int num3 = int.Parse(Console.ReadLine());
         Numbers n1 = new Numbers(num1, num2, num3);
-        Console.WriteLine("Твои числа: " + n1.ToString());
+        Console.WriteLine("Ваши числа: " + n1.ToString());
         Console.WriteLine("Самое маленькое: " + n1.min());
         Numbers n2 = new Numbers(n1);
         Console.WriteLine("Копия чисел: " + n2.ToString());
 
         //дочерний класс
-        Console.WriteLine("\nТеперь введи размеры модели (в сантиметрах):");
+        Console.WriteLine("\nТеперь введите размеры модели:");
         Console.WriteLine("Ширина:");
         int width = int.Parse(Console.ReadLine());
         Console.WriteLine("Длина:");
